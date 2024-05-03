@@ -1,5 +1,5 @@
 body {
-    margin: 35px;
+    margin: 40px;
     background-color: #D9EDBF;
 }
 
@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 #logo_site img {
@@ -54,17 +54,20 @@ header {
 
 #menu_principal ul li {
     padding: 0 30px 0 30px;
-    margin: 0;
 }
 
 #top_page img{
     margin : 0;
-    width: 70%;
-    height: 20%;
+    max-width: 60%;
+    height: auto;
 }
 
 #top_page {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
 }
 
 #top_page h1 {
@@ -76,7 +79,7 @@ header {
 }
 
 #top_page_encart {
-    width: 30%;
+    width: ;
     background-color: #FF9800;
     padding: 20px;
 }
@@ -86,7 +89,7 @@ header {
     justify-content: space-around;
 }
 
-#accueil_savane, #accueil_jungle, #accueil_marais, #accueil_restauration, #accueil_visite_guide, #accueil_visite_train {
+.encarts_accueil {
     background-color: #2C7865;
     width: 30%;
     display: flex;
@@ -105,7 +108,7 @@ header {
 footer {
     background-color: #2C7865;
     color : white;
-    margin: -35px;
+    margin: -50px;
     margin-top: 25px;
-    padding: 10px 0 0 35px;
+    padding: 10px 0 0 45px;
 }
