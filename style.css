@@ -1,5 +1,5 @@
 body {
-    margin: 25px;
+    margin: 35px;
     background-color: #D9EDBF;
 }
 
@@ -9,11 +9,29 @@ h1, h2, h3, h4, #menu_principal {
     font-style: normal;
 }
 
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: #D9EDBF;
+}
+
 p {
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -31,7 +49,7 @@ header {
 #menu_principal ul{
     display: flex;
     list-style-type: none;
-    
+    font-size: 18px;
 }
 
 #menu_principal ul li {
@@ -41,14 +59,53 @@ header {
 
 #top_page img{
     margin : 0;
-    width: 100%;
-    height: 41%;
+    width: 70%;
+    height: 20%;
+}
+
+#top_page {
+    display: flex;
 }
 
 #top_page h1 {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
+#top_page p {
+    text-align: right;
+}
+
+#top_page_encart {
+    width: 30%;
+    background-color: #FF9800;
+    padding: 20px;
+}
+
+#accueil_enc_habitats, #accueil_enc_services {
+    display: flex;
+    justify-content: space-around;
+}
+
+#accueil_savane, #accueil_jungle, #accueil_marais, #accueil_restauration, #accueil_visite_guide, #accueil_visite_train {
+    background-color: #2C7865;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#accueil_avis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #2C7865;
+    color : white;
+    margin: -35px;
+    margin-top: 25px;
+    padding: 10px 0 0 35px;
 }
