@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_contact.css">
     <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Jua&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Jua&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -11,9 +18,11 @@
     <!--Header-->
     
     <header>
-        <img src=”./assets/? alt="Logo du site">
+        <div id="logo_site">
+            <a href="index.html"><img src="./assets/logo.png" alt="Logo du site"></a>
+        </div>
 
-        <nav>
+        <nav id="menu_principal">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="habitats.html">Habitats</a></li>
@@ -23,28 +32,24 @@
             </ul>
         </nav>
 
-        <div id="header">
-            <img src="" alt="Photo présentation zoo">
-            <h1>Le zoo Arcadia vous souhaite la bienvenue !</h1>
-            <p>Insérer une description</p>
-        </div>
     </header>
 
 
     <!--Formulaire de contact-->
 
     <h1>Contacter le zoo d'Arcadia</h1>
-    <p>Blabla</p>
+    <p>Nous sommes là pour répondre à toutes vos questions, suggestions ou demandes d'informations. N'hésitez pas à nous contacter via le formulaire ci-dessous. Votre avis est précieux pour nous aider à améliorer votre expérience à Arcadia, où la nature et l'écologie se rencontrent pour créer des souvenirs inoubliables.</p>
 
     <form id="contact">
-        <label for="objet">Objet :</label>
-        <input id="objet" type="text" required>
+        <h2>Formulaire de contact</h2>
+        <label for="objet">Objet : *</label>
+        <input id="objet" type="text" placeholder="ex: Demande d'information" required>
         <br>
-        <label for="mail">Adresse mail :</label>
-        <input id="mail" type="email" required>
+        <label for="mail">Adresse mail : *</label>
+        <input id="mail" type="email" placeholder="ex: jean@mail.fr" required>
         <br>
-        <label for="commentaire">Commentaire :</label>
-        <textarea id="commentaire" required></textarea>
+        <label for="commentaire">Commentaire : *</label>
+        <textarea id="commentaire" placeholder="Tapez votre message ici" required></textarea>
         <br>
         <input id="submit" type="submit">
         

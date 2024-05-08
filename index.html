@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_index.css">
     <script src="script.js" defer></script>
     <title>Zoo Arcadia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
     
     <header>
         <div id="logo_site">
-            <img src="./assets/logo.png" alt="Logo du site">
+            <a href="index.html"><img src="./assets/logo.png" alt="Logo du site"></a>
         </div>
 
         <nav id="menu_principal">
@@ -35,10 +35,13 @@
     </header>
 
     <div id="top_page">
-        <img src="./assets/accueil.jpg" alt="Photo présentation zoo">
         <div id="top_page_encart">
             <h1>Le Zoo d'Arcadia vous souhaite la bienvenue !</h1>
-            <p>Insérer une description</p>
+            <p>Bienvenue à Arcadia, un joyau écologique niché au cœur de la Bretagne, à proximité de la légendaire forêt de Brocéliande. Depuis sa fondation en 1960, le zoo Arcadia s'est engagé à préserver le bien-être animal et à promouvoir l'écologie sous toutes ses formes.
+                Dès que vous franchissez les portes de ce sanctuaire vert, vous êtes enveloppé par une atmosphère empreinte de respect pour la nature. Chaque habitat a été minutieusement conçu pour recréer les conditions de vie naturelles des espèces qui y résident.
+                Chaque pas que vous faites à travers ses allées verdoyantes vous rappelle que la préservation de notre planète est une responsabilité partagée.
+                Au-delà de ses habitats diversifiés, Arcadia abrite une incroyable variété d'animaux, des majestueux lions de la savane aux colorés perroquets de la jungle en passant par les fascinants crocodiles des marais. Chaque espèce est choyée et respectée, bénéficiant d'espaces spacieux et enrichissants conçus pour favoriser leur bien-être physique et mental.
+            </p>
         </div>
     </div>
 
@@ -48,7 +51,7 @@
     <section id="accueil_enc_habitats">
         <div class="encarts_accueil">
             <h3>Savane</h3>
-            <p>Description savane</p>
+            <p>Plongez au cœur de la savane africaine et rencontrez ses habitants emblématiques tels que les lions, les girafes et les zèbres. En savoir plus.</p>
             <img src="" alt="">
 
             <h4>Animaux de la savane</h4>
@@ -60,7 +63,7 @@
 
         <div class="encarts_accueil">
             <h3>Jungle</h3>
-            <p>Description jungle</p>
+            <p>Explorez les mystères de la jungle tropicale, où les singes hurleurs, les perroquets ara et les tigres se cachent parmi la végétation dense. En savoir plus.</p>
             <img src="" alt="">
 
             <h4>Animaux de la jungle</h4>
@@ -72,7 +75,7 @@
 
         <div class="encarts_accueil">
             <h3>Marais</h3>
-            <p>Description marais</p>
+            <p>Découvrez le calme mystérieux des marais, où les crocodiles du Nil, les flamants roses et les tortues de Floride se fondent dans le paysage aquatique. En savoir plus.</p>
             <img src="" alt="">
 
             <h4>Animaux des marais</h4>
@@ -89,19 +92,19 @@
     <section id="accueil_enc_services">
         <div class="encarts_accueil">
             <h3>Restauration</h3>
-            <p>Description restauration</p>
+            <p>Savourez une cuisine locale et durable au cœur de votre aventure à Arcadia. En savoir plus.</p>
             <img src="" alt="">
         </div>
 
         <div class="encarts_accueil">
             <h3>Visite avec un guide (gratuit)</h3>
-            <p>Description visite avec guide</p>
+            <p>Explorez les habitats uniques d'Arcadia avec un guide expert. En savoir plus.</p>
             <img src="" alt="">
         </div>
 
         <div class="encarts_accueil">
             <h3>Visite du zoo en petit train</h3>
-            <p>Description visite en train</p>
+            <p>Profitez d'une balade panoramique à travers les paysages variés du zoo Arcadia. En savoir plus.</p>
             <img src="" alt="">
         </div>
     </section>
@@ -110,16 +113,14 @@
 
     <h2>Avis de nos visiteurs</h2>
     <section id="accueil_avis">
-        <p>Blabla</p>
+        <p>"Une expérience extraordinaire ! Le zoo Arcadia est bien plus qu'un simple parc animalier. Sa mission écologique et son engagement envers le bien-être animal en font un lieu unique où l'on se sent connecté à la nature. Une journée inoubliable pour toute la famille !" - Sophie M.</p>
 
-        <h3>Laisser un commentaire</h3>
+        <h3>Laisser un commentaire :</h3>
         <form id="avis_form">
             <label for="pseudo">Pseudo :</label>
-            <input id="pseudo" type="text" required>
-            <br>
+            <input id="pseudo" type="text" placeholder="ex: Jean" required>
             <label for="commentaire">Commentaire :</label>
-            <textarea id="commentaire" required></textarea>
-            <br>
+            <textarea id="commentaire" placeholder="Donnez nous votre avis" required></textarea>
             <input id="submit" type="submit">
         
     </section>

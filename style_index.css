@@ -1,6 +1,9 @@
 body {
     margin: 40px;
     background-color: #D9EDBF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1, h2, h3, h4, #menu_principal {
@@ -25,9 +28,10 @@ h3 {
 
 p {
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
 }
 
 a {
@@ -39,6 +43,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 25px;
+    width: 70%;
 }
 
 #logo_site img {
@@ -56,18 +61,12 @@ header {
     padding: 0 30px 0 30px;
 }
 
-#top_page img{
-    margin : 0;
-    max-width: 60%;
-    height: auto;
-}
-
 #top_page {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
-
+    margin: 30px 0;
+    width: 70%;
 }
 
 #top_page h1 {
@@ -75,18 +74,20 @@ header {
 }
 
 #top_page p {
-    text-align: right;
+    text-align: center;
 }
 
 #top_page_encart {
-    width: ;
     background-color: #FF9800;
     padding: 20px;
+    border-radius: 20px;
 }
 
 #accueil_enc_habitats, #accueil_enc_services {
     display: flex;
     justify-content: space-around;
+    margin: 30px 0;
+    width: 70%;
 }
 
 .encarts_accueil {
@@ -96,6 +97,7 @@ header {
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
+    padding: 10px;
 }
 
 #accueil_avis {
@@ -103,12 +105,31 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-color: #90D26D;
+    border-radius: 20px;
+    width: 30%;
+    padding: 30px;
+}
+
+#avis_form {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#avis_form input {
+    margin: 20px;
+}
+
+#commentaire {
+    margin-top: 20px;
 }
 
 footer {
     background-color: #2C7865;
     color : white;
-    margin: -50px;
-    margin-top: 25px;
-    padding: 10px 0 0 45px;
+    width: 100%;
+    margin-top: 30px;
 }
