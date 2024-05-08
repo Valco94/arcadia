@@ -61,21 +61,71 @@ header {
     padding: 0 30px 0 30px;
 }
 
-#accueil_enc_habitats {
+#top_page {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+    width: 60%;
+}
+
+#top_page h1 {
+    text-align: center;
+}
+
+#top_page p {
+    text-align: center;
+}
+
+#top_page_encart {
+    background-color: #FF9800;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#accueil_enc_habitats, #accueil_enc_services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
 }
 
 .encarts_accueil {
     background-color: #2C7865;
-    width: 70%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    margin: 30px;
+    margin: 10px;
     padding: 20px;
+}
+
+#accueil_avis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #90D26D;
+    border-radius: 20px;
+    width: 30%;
+    padding: 30px;
+}
+
+#avis_form {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#avis_form input {
+    margin: 20px;
+}
+
+#commentaire {
+    margin-top: 20px;
 }
 
 footer {
