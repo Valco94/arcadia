@@ -133,4 +133,23 @@ footer {
     color : white;
     width: 100%;
     margin-top: 30px;
+    margin-left: -80px;
+    padding-left: 160px;
+    margin-bottom: -80px;
+}
+
+.animaux_accueil{
+    padding-right: 40px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+.animaux_accueil ul li img {
+    max-width: 150px;
+    border-radius: 100%;
+    margin-bottom: 20px;
 }
